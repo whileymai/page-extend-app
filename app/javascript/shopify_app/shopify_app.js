@@ -11,6 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
   var actions = AppBridge.actions;
   var TitleBar = actions.TitleBar;
   TitleBar.create(app, {
-    title: data.page,
+    title: data.page, 
   });
 });
